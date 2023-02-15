@@ -62,6 +62,10 @@
   display: none;
 }
 
+.opitions {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .container__title,
   .container__title-bold {
@@ -76,5 +80,37 @@
 
   .container__title-bold {
     font-weight: 700;
+  }
+
+  .opitions {
+    display: flex;
+  }
+
+  .opitions__itens {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+
+  .opitions__link {
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--preto);
+  }
+
+  .container__imagem-transparente {
+    display: none;
+  }
+
+  .cabecalho__menu-hamburguer {
+    display: none;
+  }
+
+  .opitions__button:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  .opitions__button {
+    display: none;
   }
 }
