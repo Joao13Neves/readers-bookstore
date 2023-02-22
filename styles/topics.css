@@ -32,9 +32,21 @@
 @media screen and (min-width: 1024px) {
   .topics__title {
     font-size: 24px;
+    margin: 1em 1em;
   }
 
   .topics__link {
     font-size: 24px;
+  }
+
+  .topics__itens {
+    display: flex;
+    margin: 1em 0.7em;
+    background: var(--laranja);
+    flex-direction: column;
+    padding: 18px;
+  }
+
+  .topics__list-itens {
   }
 }

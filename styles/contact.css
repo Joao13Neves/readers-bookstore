@@ -46,11 +46,13 @@
 
   .contact__title {
     font-size: 24px;
+    font-weight: 500;
   }
 
   .contact__description {
     margin: 1em;
     width: 30%;
+    line-height: 1.6em;
   }
 
   .contact__email {

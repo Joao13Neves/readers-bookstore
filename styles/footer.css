@@ -8,3 +8,40 @@ hr {
   font-size: 16px;
   font-weight: 400;
 }
+
+.list__footer {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list__footer {
+    display: block;
+  }
+
+  .list__footer-item {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+  }
+
+  .list__footer-link {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-left: 0.6em;
+  }
+
+  .list__footer-title {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    text-transform: uppercase;
+  }
+
+  .footer__titlec {
+    font-size: 24px;
+  }
+}
