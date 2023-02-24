@@ -18,11 +18,12 @@
 
 .topics__itens {
   margin: 2em 0.5em;
+  border-radius: 8px;
 }
 
 .topics__link {
   color: var(--branco);
-  padding: 1em;
+  padding: 0.5em;
   background-color: var(--laranja);
   text-decoration: none;
   font-size: 14px;
@@ -46,7 +47,10 @@
     flex-direction: column;
     padding: 18px;
   }
+}
 
-  .topics__list-itens {
+@media screen and (min-width: 1728px) {
+  .topics {
+    padding: 3em 25vw;
   }
 }

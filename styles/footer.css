@@ -13,6 +13,11 @@ hr {
   display: none;
 }
 
+.list__footer-link:hover {
+  color: var(--laranja);
+  font-weight: 600;
+}
+
 @media screen and (min-width: 1024px) {
   .footer {
     display: flex;
@@ -43,5 +48,16 @@ hr {
 
   .footer__titlec {
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .list__footer {
+    border-left: 1px solid var(--cinza-secundario);
+    padding-left: 1em;
+  }
+
+  .footer {
+    padding: 3em 0;
   }
 }
