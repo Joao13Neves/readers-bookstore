@@ -116,8 +116,8 @@
                 </div>
 
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"><img src="./img/seta_esquerda.svg" alt="Imagem de seta"></div>
+                <div class="swiper-button-next"><img src="./img/seta_direita.svg" alt="Imagem de seta"></div>
             </div>
             <div class="card">
                 <!-- 1° linha-->
@@ -169,8 +169,8 @@
                 </div>
 
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"><img src="./img/seta_esquerda.svg" alt="Imagem de seta"></div>
+                <div class="swiper-button-next"><img src="./img/seta_direita.svg" alt="Imagem de seta"></div>
             </div>
             <div class="card">
                 <!-- 1° linha-->
@@ -358,6 +358,10 @@
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
         });
     </script>
